@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300&display=swap');
+
+
+.search-app{
+    overflow: hidden;
+    font-family: 'Martian Mono', monospace;
+}
+.container{
+    width :55% !important;
+}
+.bg-dark-mode{
+ background-color: #141C30;
+}
+.bg-dark-mode-element{
+    background-color: #1F2A48;
+}
