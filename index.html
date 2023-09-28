@@ -27,10 +27,15 @@
             <div class="header-card mb-4 w-100">
                 <div class="container d-flex aline-items-start">
                 <h4>devfinder</h4>
-                <div class="header-icon ms-auto">
+                <div class="header-icon ms-auto d-block " id="lightMode">
                     <span class="text-uppercase fs-5 me-2">light</span>
-                    <i class="fa-solid fa-sun fs-5 p-2 text-light"></i>
-                  <!-- <i class="fa-solid fa-moon fs-3 p-2"></i> -->
+                    <i class="fa-solid fa-sun fs-5 p-2 text-light" onclick="setLightMode()" ></i>
+                     <!-- <i class="fa-solid fa-moon fs-3 p-2"></i> -->
+                </div>
+                <div class="header-icon ms-auto d-none" id="darkMode">
+                    <span class="text-uppercase fs-5 me-2">Dark</span>
+                    <i class="fa-solid  fa-moon fs-5 p-2 " onclick="setDarkMode()" ></i>
+                    
                 </div>
               </div>
             </div>
@@ -99,9 +104,7 @@
                 </div>
                 </div>
             </div> -->
-            
-                
-                
+      
         </div>
         </div>
         <script src="assets/js/main.js"></script>

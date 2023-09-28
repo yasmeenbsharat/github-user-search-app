@@ -11,6 +11,15 @@
 .bg-dark-mode{
  background-color: #141C30;
 }
+.bg-light-mode{
+    background-color: #F5F8FF;
+    color:#141C30 !important;
+   }
 .bg-dark-mode-element{
     background-color: #1F2A48;
+}
+
+.bg-light-mode-element{
+    background-color: #FDFEFF;
+    color:#141C30 !important ;
 }
