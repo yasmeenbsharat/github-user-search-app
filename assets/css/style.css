@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300&display=swap');
-
-
 .search-app{
     overflow: hidden;
     font-family: 'Martian Mono', monospace;
-}
-.container{
-    width :55% !important;
 }
 .bg-dark-mode{
  background-color: #141C30;
@@ -18,8 +13,29 @@
 .bg-dark-mode-element{
     background-color: #1F2A48;
 }
-
 .bg-light-mode-element{
     background-color: #FDFEFF;
     color:#141C30 !important ;
 }
+
+@media only screen and (max-width: 769px) {
+.container{
+    width :110% !important;
+}
+.item{
+    width :100% !important;
+}
+ .card-item{
+    margin-left: -50%;
+    width :125% !important;
+ } 
+    }
+ @media only screen and (max-width: 576px){
+    .container{
+        width :90% !important;
+    }
+    .card-item{
+        margin-left: -30%;
+        width :160% !important;
+     } 
+ }
